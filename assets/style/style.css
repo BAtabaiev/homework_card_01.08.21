@@ -1,0 +1,76 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  background: radial-gradient(
+    circle,
+    rgba(41, 46, 58, 1) 36%,
+    rgba(75, 81, 96, 1) 86%
+  );
+}
+
+.cardBody {
+  display: flex;
+  max-width: 800px;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.cardTop {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 600px;
+  border-radius: 25px;
+  box-shadow: 3px 45px 28px -15px #3f3f3f;
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 65%;
+}
+
+.cardInfo {
+  line-height: 2;
+  display: flex;
+  font-size: 1.8rem;
+  font-family: "Red Hat Display", sans-serif;
+  flex-direction: column;
+  padding-bottom: 10px;
+  color: white;
+  letter-spacing: 3px;
+}
+.cardStats {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: 140px;
+  background: rgb(235, 230, 230);
+  border-radius: 0 0 25px 25px;
+  box-shadow: inset 3px 60px 28px -15px #8e8e8e;
+}
+.statistic {
+  width: 32%;
+}
+.statistic > h2 {
+  font-size: 2.5rem;
+}
+.statistic > p {
+  font-size: 1.8rem;
+  opacity: 0.5;
+}
+.follow {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  width: 50%;
+  background: #e4006a;
+  border-radius: 0 0 25px 25px;
+  color: aliceblue;
+  box-shadow: inset 0px 50px 25px -19px rgba(142, 95, 91, 0.7);
+  font-size: 0.8rem;
+  letter-spacing: 10px;
+}
